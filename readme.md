@@ -1,8 +1,8 @@
-# **Data-Cache**
+# **Facher**
 
 ## **1. 它能做什么？**
 
-Data-Cache是一个简易的函数式数据缓存器，日常中我们遇到的一些函数运行时间成本极高，可以尝试将它的一部分数据缓存起来使用，降低时间成本（但是会一定量增加空间成本）。其次，Data-Cache还提供了底层Cacher库，可以利用它封装更多种类的缓存器。
+Facher是一个简易的函数式数据缓存器，日常中我们遇到的一些函数运行时间成本极高，可以尝试将它的一部分数据缓存起来使用，降低时间成本（但是会一定量增加空间成本）。其次，Data-Cache还提供了底层Cacher库，可以利用它封装更多种类的缓存器。
 
 ---
 
@@ -29,7 +29,7 @@ function delay5sToRes (data) {
 
 这时候，我们使用`createCacheFunction`封装一个带有缓存器的`delay5sToRes`函数，如下所示：
 ```js
-const {createCacheFunction} = require('data-cache');
+const {createCacheFunction} = require('facher');
 const cdelay5sToRes = createCacheFunction(delay5sToRes);
 ```
 

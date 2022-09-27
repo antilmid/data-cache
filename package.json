@@ -1,8 +1,8 @@
 {
-  "name": "data-cache",
+  "name": "facher",
   "version": "1.0.0",
-  "description": "data-cache是一个上手容易的数据/函数缓存工具",
-  "keywords": ["cache", "data", "promise", "async"],
+  "description": "facher是一个上手容易的数据/函数缓存工具",
+  "keywords": ["cache", "data", "promise", "async", "facher"],
   "files": ["./dist"],
   "main": "./dist/index.js",
   "scripts": {
