@@ -1,0 +1,20 @@
+{
+  "name": "data-cache",
+  "version": "1.0.0",
+  "description": "data-cache是一个上手容易的数据/函数缓存工具",
+  "keywords": ["cache", "data", "promise", "async"],
+  "files": ["./dist"],
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "ENV=dev npx --node-options=--inspect gulp",
+    "build": "rm -rf ./dist && npx --node-options=--inspect gulp"
+  },
+  "author": "antilmid",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "inspect-process": "^0.5.0",
+    "typescript": "^4.8.3"
+  }
+}
